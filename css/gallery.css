@@ -1,0 +1,84 @@
+#content {
+    width: 400px;
+    background-color: antiquewhite;
+    padding: 20px;
+    font-family: 'Calibri', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: #444;
+    margin: 0 auto;
+
+    /* Here is the hidden text coming */
+    max-height: 130px;
+    overflow: hidden;
+
+    /*set transitions up*/
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+    
+}
+
+#content.open {
+    max-height: 1000px;
+
+    /*set transitions up*/
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+/*Button*/
+.show-more {
+    display: block;
+    width: 140px;
+    margin: 10px auto;
+    background-color: rgb(116, 47, 255);
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#message {
+    width: 400px;
+    background-color: #ddaaaa;
+    padding: 20px;
+    padding: 20px;
+    font-family: "calibri";
+    font-size: 18px;
+    color: #444;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #ff7777;
+    font-weight: bold;
+    opacity: 0;
+
+    /*set transitions up*/
+    -webkit-transition: opacity 0.7s;
+    -moz-transition: opacity 0.7s;
+    transition: opacity 0.7s;
+}
+
+#message.show {
+    opacity: 1;
+
+    /*set transitions up*/
+    -webkit-transition: opacity 0.7s;
+    -moz-transition: opacity 0.7s;
+    transition: opacity 0.7s;
+}
+
+#colour-changer {
+    width: 200px;
+    height: 100px;
+    margin: 30px auto;
+    border: 1px solid #000;
+    background-color: #fff;
+
+    /*set transitions up*/
+    -webkit-transition: opacity 0.7s;
+    -moz-transition: opacity 0.7s;
+    transition: opacity 0.7s;
+}
