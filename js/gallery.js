@@ -127,7 +127,7 @@ function showMessage() {
 setTimeout(showMessage, 3000);*/
 
 
-var colourChanger = document.getElementById("colour-changer");
+/*var colourChanger = document.getElementById("colour-changer");
 
 var colours = ["red", "blue", "green", "grey", "pink"];
 
@@ -143,7 +143,7 @@ function changeColour() {
     counter++;
 }
 
-setInterval(changeColour, 3000);
+//setInterval(changeColour, 3000);
 
 
 
@@ -154,5 +154,34 @@ colourChanger.onclick = function () {
     clearInterval(myTimer);
     colourChanger.innerHTML = "Timer stopped";
 
-};
+};*/
+
+
+
+
+var myForm = document.forms.myForm;
+
+console.log(myForm);
+
+console.log(myForm.colour.value);
+
+myForm.name.onfocus = function() {
+    myForm.name.style.border = "4px solid pink";
+
+}
+
+myForm.name.onblur = function() {
+    myForm.name.style.border = "none";
+
+}
+
+
+
+
+
+
+
+
+
+
 
