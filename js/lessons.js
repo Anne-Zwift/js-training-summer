@@ -43,17 +43,17 @@ console.log(keysAndValues);*/
 
 
 //arrow
+const add = (a,b) => a + b;
 
-//const add = (a,b) => a + b;
 
 
-//traditional
+/*traditional
 
 let multiply = function(a,b) {
     return a * b;
 };
 
-console.log(2*3);
+console.log(2*3);*/
 
 
 
