@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+</head>
+<body>
+    <form name="menu">
+        <select id="diet">
+            <option value="" selected>None</option>
+            <option value="vegan">Vegan</option>
+            <option value="vegetarian">Vegetarian</option>
+            <option value="pescatarian">Pescatarian</option>
+          </select>
+        <fieldset>
+            <legend>Starters</legend>
+            <label for="starter1">Croquettes</label>
+            <input type="radio" id="starter1" name="starter" value="5">
+            <label for="starter2">Miso Soup</label>
+            <input type="radio" id="starter2" name="starter" value="6">
+            <label for="starter3">Terrine</label>
+            <input type="radio" id="starter3" name="starter" value="7">
+        </fieldset>
+        <fieldset>
+            <legend>Sides</legend>
+            <label for="side1">Fries</label>
+            <input type="checkbox" id="side1" name="side" value="3">
+            <label for="side2">Salad</label>
+            <input type="checkbox" id="side2" name="side" value="4">
+            <label for="side3">Bread</label>
+            <input type="checkbox" id="side3" name="side" value="2">
+        </fieldset>
+        <button type="submit">Place Order</button>
+    </form>
+
+
+    <script src="/js/menu.js"></script>
+</body>
+</html>
