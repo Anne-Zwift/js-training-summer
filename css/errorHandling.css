@@ -1,0 +1,9 @@
+.content {
+    width: 400px;
+    background-color: antiquewhite;
+    padding: 20px;
+    font-family: 'Calibri', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: #444;
+    margin: 0 auto;
+}
